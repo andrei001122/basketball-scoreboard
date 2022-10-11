@@ -1,0 +1,53 @@
+body {
+    margin: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: turquoise;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+
+
+}
+
+#board-title {
+    color: wheat;
+
+}
+
+#home-score,
+#guest-score {
+    background: black;
+    padding: 20px;
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Cursed Timer ULiL';
+
+}
+
+#add-points {
+    border-radius: 20px;
+    background-color: turquoise;
+    cursor: pointer;
+}
+
+#reset-button {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-weight: bold;
+    color: green;
+    font-size: 20px;
+    display: flex;
+    cursor: pointer;
+}
